@@ -1,0 +1,9 @@
+; random read of 1g of data
+
+[my-read]
+rw=randread
+bs=64k
+size=1g
+;ioengine=libaio
+iodepth=4
+direct=1
